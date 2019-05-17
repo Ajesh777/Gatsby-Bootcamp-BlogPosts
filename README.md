@@ -123,3 +123,5 @@
 * 81: Select Advanced Build Settings
 * 82: Click on variables & add the neccesary .env variables we created for contentful.
 * 83: Finaly Click Deploy Site
+>Done---
+---
