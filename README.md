@@ -1,97 +1,97 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
-
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
-
-## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
-
-    ```sh
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
-
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```sh
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
-## 🧐 What's inside?
-
-A quick look at the top-level files and directories you'll see in a Gatsby project.
-
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
-
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
-
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
-
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
-
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+Complete Instruction For Bootcamping with Gatsby:
+Go to terminal & type:
+>npm run develop
+Go To index.js @ /src/pages/index.js & follow inst [1-2]
+Create blog.js @ /src/pages/blog.js & follow inst [3-5]
+Create about @ /src/pages/about.js & follow inst [6-8]
+Create contacts @ /src/pages/contacts.js & follow inst [9-11]
+Go To index.js @ /src/pages/index.js & create contacts PageLinks, follow inst [12-13]
+Go To contacts.js @ /src/pages/contacts.js & create Home PageLinks, follow inst [14-15]
+Go To about.js @ /src/pagabout.js & create Home & Contacts PageLinks, follow inst [16-17]
+Create components directory @ /src/components
+Create footer @ /src/components/footer.js & follow inst [18-20]
+Go To index.js @ /src/pages/index.js & import Footer ComponentLinks, follow inst [21.1-21.2]
+Similarly Go To all other Pages add Footer ComponentLinks
+Create header @ /src/components/header.js & follow inst [22-24]
+Go To index.js @ /src/pages/index.js & import header ComponentLinks, follow inst [25.1-25.2]
+Similarly Go To all other Pages add header ComponentLinks
+Create layout @ /src/components/layout.js & follow inst [26-28]
+Go To index.js @ /src/pages/index.js & Delete header & footer components & then import layout ComponentLinks, follow inst [29.1-29.2]
+Similarly Go To all other Pages add layout ComponentLinks
+Create styles directory @ /src/styles & In terminal install gatsby-plugin--sass:
+>Ctrl+c
+>npm install --save node-sass gatsby-plugin-sass
+Create gatsby-config.js directory @ /gatsby-config.js & follow inst [30]
+Create index.scss directory @ /src/index.scss
+Restart the server, using the terminal cmd:
+>npm run develop
+Now go to link http://links.mead.io/gatsbystyles & copy the raw code & paste in /src/styles/index.scss
+Create header.module.scss @ /src/components/header.module.scss & follow inst [31]
+Go To header.js @ /src/pages/header.js & import header.scss
+Go to /gatsby-config.js & follow inst [32]
+Go to link localhost:8000/___graphql & type query:
+>query { site { siteMetadata { title}}}
+Go To header.js @ /src/components/header.js & follow inst [33]
+Go To footer.js @ /src/components/footer.js & follow inst [34]
+Now for installing the new GraphQl playground, go to terminal:
+>Ctrl+c
+Create .env.dev @ /.env.dev & follow inst [35]
+>npm i --save-dev env-cmd
+Now go to /package.json & change under scripts/develop/"env-cmd .env.dev gatsby develop", type: GATSBY_GRAPHQL_IDE=playground
+>npm run develop
+Now Create Posts directory @ /src/posts
+Create gatsby.md @ /src/posts/gatsby.md
+Create react.md @ /src/posts/react.md
+Now Install gatsby plugin for filesystem, go to terminal:
+>Ctrl+c
+>npm i gatsby-source-filesystem@2.0.28
+Go to /gatsby-config.js & follow inst [36]
+>npm run develop
+Go to link localhost:8000/___graphql & type query:
+>query { allFile { edges { node { name, dir, extension }}}}
+Now Install gatsby plugin for prarsing filesystem, go &
+>Ctrl+c
+>npm i gatsby-transformer-remark@2.3.8
+Go to /gatsby-config.js & follow inst [37]
+>npm run develop
+Go to link localhost:8000/___graphql & type query:
+>query { allMarkdownRemark { edges { node { frontmatter { title date }, html, excerpt, wordCount { paragraphs sentences words } }}}}
+Go To blog.js @ /src/pages/blog.js & follow inst [38]
+Create gatsby-node.js @ /gatsby-node.js & follow inst [39]
+Now Create templates directory @ /src/templates
+Create blog.js @ /src/templates/blog.js & follow inst [40]
+Go To gatsby-node.js @ /gatsby-node.js & follow inst [41]
+Go To blog.js @ /src/pages/blog.js & follow inst [42]
+Now Install gatsby plugin for fetching, prarsing, linking images, go &
+>Ctrl+c
+>npm i gatsby-plugin-sharp@2.0.32 gatsby-remark-images@3.0.10 gatsby-remark-relative-images@0.2.2
+Go to /gatsby-config.js & follow inst [43]
+>npm run develop
+create a folder for each post in post directory for structuring
+Now create footer.module.scss @ /src/components/footer.module.scss & follow inst [44]
+Now import footer.module.scss @ /src/components/footer.js, inst [44.1]
+Now create blog.module.scss @ /src/pages/blog.module.scss & follow inst [45]
+Now import blog.module.scss @ /src/pages/blog.js, inst [45.1]
+Now for cms, we will use contentful, so go to link www.contentful.com & create an account.
+Now Install gatsby plugin for contentful, go &
+>Ctrl+c
+>npm i gatsby-source-contentful
+Go to /gatsby-config.js & follow inst [46]
+>npm run develop
+Go to link localhost:8000/___graphql & type query:
+>query { allContentfulBlogPost(sort: { fields: publishedDate, order: DESC }) { edges { node { title slug publishedDate(formatString: "DD-MMM-YYYY")}}}}
+Go To blog.js @ /src/pages/blog.js & follow inst [47]
+Go To gatsby-node.js @ /gatsby-node.js & follow inst [48]
+Go To blog.js @ /src/templates/blog.js & follow inst [49]
+Install plugin to parse body from contentful
+>ctrl+c
+>npm i @contentful/rich-text-react-renderer
+Go To blog.js @ /src/templates/blog.js & follow inst [50]
+Create 404.js @ /src/pages/404.js & follow inst [51]
+Now install Helmet plugin for configuring head of page
+>ctrl+c
+>npm i gatsby-plugin-react-helmet@3.0.12 react-helmet@5.2.0
+Go to /gatsby-config.js & follow inst [52]
+Create head @ /src/components/head.js & follow inst [53]
+Go To index.js @ /src/pages/index.js & import head ComponentLinks, follow inst [54]
+Similarly Go To all other Pages add head ComponentLinks
