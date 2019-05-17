@@ -115,3 +115,11 @@
 * 75: ```git push -u origin master```: Now finally push all contents to this github repo.
 >Done--- Now we are ready fo Deploying to Netlify
 ---
+* 76: Go to the link ```https://www.netlify.com/``` & sign up for ```free```
+* 77: Give access to your github account.
+* 78: Go to your email, inbox & then Verify your email account.
+* 79: Now go back hit ```create a new site```
+* 80: Select your github repo we just created
+* 81: Select Advanced Build Settings
+* 82: Click on variables & add the neccesary .env variables we created for contentful.
+* 83: Finaly Click Deploy Site
