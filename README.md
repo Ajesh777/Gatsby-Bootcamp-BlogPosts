@@ -9,9 +9,9 @@
 * >```gatsby new bootcamp https://github.com/gatsbyjs/gatsby-starter-hello-world```
 * >```cd bootcamp```
 >We have Installed Gatsby, Now We will run in dev mode & start coding
---
+---
 * 2: Go to terminal & type:
->```npm run develop```
+* >```npm run develop```
 * 3: Go To index.js @ ```/src/pages/index.js``` & follow inst [```1-2```]
 * 4: Create blog.js @ ```/src/pages/blog.js``` & follow inst [```3-5```]
 * 5: Create about @ ```/src/pages/about.js``` & follow inst [```6-8```]
@@ -41,7 +41,7 @@
 * 26: Go To header.js @ ```/src/pages/header.js``` & ```import header.scss```
 * 27: Go to ```/gatsby-config.js``` & follow inst [```32```]
 * 28: Go to link ```localhost:8000/___graphql``` & type query:
->```query { site { siteMetadata { title}}}```
+* >```query { site { siteMetadata { title}}}```
 * 29: Go To header.js @ ```/src/components/header.js``` & follow inst [```33```]
 * 30: Go To footer.js @ ```/src/components/footer.js``` & follow inst [```34```]
 * 31: Now for installing the ```new GraphQl playground IDE```, go to terminal:
@@ -66,7 +66,7 @@
 * 41: Go to ```/gatsby-config.js``` & follow inst [```37```]
 * >```npm run develop```
 * 42: o to link ```localhost:8000/___graphql``` & type query:
->```query { allMarkdownRemark { edges { node { frontmatter { title date }, html, excerpt, wordCount { paragraphs sentences words } }}}}```
+* >```query { allMarkdownRemark { edges { node { frontmatter { title date }, html, excerpt, wordCount { paragraphs sentences words } }}}}```
 * 43: Go To blog.js @ ```/src/pages/blog.js``` & follow inst [```38```]
 * 44: Create gatsby-node.js @ ```/gatsby-node.js``` & follow inst [```39```]
 * 45: Now Create templates directory @ ```/src/templates```
@@ -106,12 +106,12 @@
 * 68: Create head @ ```/src/components/head.js``` & follow inst [```53```]
 * 69: Go To index.js @ ```/src/pages/index.js``` & import head ComponentLinks, follow inst [```54```]
 * 70: ```Similarly``` Go To ```all other Pages``` add head ComponentLinks
->-----Done--- Now Let us Push it to git
+>Done--- Now Let us Push it to git
 ---
 * 71: ```git status``` : Check the status of the git repo.
 * 72: ```git add .``` : Add all the required changes to git repo.
 * 73: ```git commit -m "final gatsby-site"``` : Commit - Save all changes with a message.
 * 74: ```git remote add origin https://* github.com/Ajesh777/* gatsby-bootcamp.git``` : Connecting to your created repo @ github site, copy your link @ create repo, option.
 * 75: ```git push -u origin master```: Now finally push all contents to this github repo.
->----Done----- Now we are ready fo Deploying to Netlify
+>Done--- Now we are ready fo Deploying to Netlify
 ---
