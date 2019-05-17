@@ -1,6 +1,8 @@
 # Bootcamping with Gatsby: 
 ```
-| Gatsby | React | Blog | contentful | Gatsby-plugin-file | Helmet | image-plugin-sharp | SPA | Netlify | Hosting | CSS | SCSS | Filesystem | Node.js | createNode | slug |
+| Gatsby | React | Blog | contentful | Gatsby-plugin-file | Helmet |
+| image-plugin-sharp | SPA | Netlify | Hosting | CSS | SCSS | JSX |
+| Filesystem | JS | GraphQL | Playground | Node.js | createNode | slug |
 ```
 ## Follow the Instruction Below to learn & create your own Gatsby Blog Site:
 
